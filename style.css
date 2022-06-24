@@ -1,0 +1,68 @@
+body{margin:0;
+     padding: 0;
+     background-image: linear-gradient( 135deg, #FFF720 10%, #3CD500 100%);
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;}
+
+
+.square{width: 100px;
+        height: 100px;
+        background-color: gray;
+        border: 1px solid green;
+        display: inline-block;
+        }      
+.o{position: relative;}        
+.o::after{content: "\2B55";
+font-size: 50px;
+line-height: 100px;
+position: absolute;
+top:0;
+bottom: 0;
+left: 0;
+right:0;}
+.x{position: relative;}
+.x::after{content:"\274C";
+    font-size: 50px;
+    line-height: 100px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right:0;}
+button{background-color: gray;
+       color:chartreuse;
+       font-size: large;
+       border-radius: 10px;
+       border: #3CD500;
+       padding: 10px;
+       cursor: pointer;}
+
+
+.contatos{
+    background-image: linear-gradient( 135deg, #FCCF31 10%, #F55555 100%);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    
+    
+}
+#whatsImage{width:20px;
+    aspect-ratio: attr(553)/attr(135);
+}
+#emailImage{width:20px;
+    aspect-ratio: attr(553)/attr(135);
+}   
+#whats a{
+    text-decoration: none;
+    color:black;
+    text-align: center;
+
+}
+#mail a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
